@@ -8,4 +8,3 @@ Material curso de posgrado; Materia Estadística en la Investigación Científic
 + Crear repositorio :pager:
 + Sincoronizar nube y computadora :computer:
 + Credenciales Git :key:
-
