@@ -12,5 +12,4 @@ Material curso de posgrado; Materia Estadística en la Investigación Científic
 **Forma Sincoronizar nube y computadora**
 
 + C:\Users\Usuario>git config --global user.name "JAIRO_POSGRADO"
-
 + C:\Users\Usuario>git config --global user.email "jairoleal9915@gmail.com"
