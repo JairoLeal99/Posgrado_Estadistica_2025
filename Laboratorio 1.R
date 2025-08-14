@@ -71,3 +71,22 @@ help.search("absolute")
 gastos <- c(celular, transporte, comestibles, gimnasio, alquiler, otro) 
 # c() PARA CREAR CONJUNTOS DE DATOS
 gastos
+
+barplot(gastos)
+?barplot
+plot(gastos)
+plot(UKDriverDeaths)
+
+sort(gastos) # Sort() acomoda los datos de manera creciente
+gastosordenados <- sort(gastos)
+barplot(gastosordenados, main="Gastos ordenados",
+        col= "red",
+        border = "white")
+
+help(sort)
+
+gastosordenados2 <- sort(gastos, decreasing = TRUE) # funcion decreasing = true para que sea acomode decreciente
+barplot(gastosordenados2, main="Gastos ordenados",
+        col= "red",
+        border = "white")
+
