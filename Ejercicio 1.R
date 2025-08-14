@@ -17,5 +17,6 @@ names(temp) <- c("Anual", "Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago"
 temp$media_anual <- rowMeans(temp[,2:13]) 
 #la coma para columnas es antes de los numeros, la coma despues de los numeros son para seleccionar filas
 #seleccionar temp[,2:13] y en consola aparece las columnas seleccionadas
-temp$media_anual
+
+head(temp)
 
