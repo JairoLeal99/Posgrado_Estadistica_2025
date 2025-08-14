@@ -79,14 +79,18 @@ plot(UKDriverDeaths)
 
 sort(gastos) # Sort() acomoda los datos de manera creciente
 gastosordenados <- sort(gastos)
-barplot(gastosordenados, main="Gastos ordenados",
+barplot(gastosordenados, 
+        main="Gastos ordenados",
         col= "red",
         border = "white")
 
 help(sort)
 
-gastosordenados2 <- sort(gastos, decreasing = TRUE) # funcion decreasing = true para que sea acomode decreciente
-barplot(gastosordenados2, main="Gastos ordenados",
+gastosordenados2 <- sort(gastos, decreasing = TRUE) 
+# funcion decreasing = true para que sea acomode decreciente
+
+barplot(gastosordenados2, 
+        main="Gastos ordenados",
         col= "cyan",
         border = "black")
 
@@ -96,7 +100,9 @@ help(barplot)
 
 names(gastosordenados2) <- c("Otro", "Comestibles", "Transporte", "Gimnasio", "Celular", "Transporte")
 
-barplot(gastosordenados2, main="Gastos alumno",
+barplot(gastosordenados2, 
+        main="Gastos mensuales",
         col= heat.colors(6),
-        border = "white")
+        border = "white"
+        names.arg = names(gastos_ordenados))
 
