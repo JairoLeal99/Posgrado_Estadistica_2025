@@ -55,3 +55,19 @@ Celular * CELULAR / celular
 # Buscar ayuda
 
 help(abs)
+
+abs(celular)
+abs(CELULAR)
+sqrt(celular)
+sqrt(CELULAR)
+CELULAR * 5
+
+help(mean)
+?mean
+help.search("absolute")
+
+# AUTOEVALUACION
+
+gastos <- c(celular, transporte, comestibles, gimnasio, alquiler, otro) 
+# c() PARA CREAR CONJUNTOS DE DATOS
+gastos
