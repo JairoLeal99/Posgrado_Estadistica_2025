@@ -87,6 +87,16 @@ help(sort)
 
 gastosordenados2 <- sort(gastos, decreasing = TRUE) # funcion decreasing = true para que sea acomode decreciente
 barplot(gastosordenados2, main="Gastos ordenados",
-        col= "red",
+        col= "cyan",
+        border = "black")
+
+# Descubrir como poner el nombre de las variables
+
+help(barplot)
+
+names(gastosordenados2) <- c("Otro", "Comestibles", "Transporte", "Gimnasio", "Celular", "Transporte")
+
+barplot(gastosordenados2, main="Gastos alumno",
+        col= heat.colors(6),
         border = "white")
 
