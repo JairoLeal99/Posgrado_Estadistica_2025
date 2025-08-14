@@ -103,6 +103,6 @@ names(gastosordenados2) <- c("Otro", "Comestibles", "Transporte", "Gimnasio", "C
 barplot(gastosordenados2, 
         main="Gastos mensuales",
         col= heat.colors(6),
-        border = "white"
-        names.arg = names(gastos_ordenados))
+        border = "white",
+        names.arg = names(gastosordenados2))
 
