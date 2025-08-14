@@ -1,9 +1,11 @@
 # LABORATORIO 1 - (14/08/2025)
 
 # Sumas
+
 300+240+1527+400+1500+1833
 
 # Crear objetos
+
 celular <- 300
 celular
 transporte <- 240
@@ -40,16 +42,16 @@ log(2)
 
 # Este es otro comentario
 
+4 + 5 # Esta es una suma, el resutlado es = 9
 
+celular <- 300
+Celular <- -300
+CELULAR <- 1000
 
+celular + Celular
+Celular + CELULAR
+Celular * CELULAR / celular
 
+# Buscar ayuda
 
-
-
-
-
-
-
-
-
-
+help(abs)
