@@ -13,3 +13,7 @@ Material curso de posgrado; Materia Estadística en la Investigación Científic
 
 + C:\Users\Usuario>git config --global user.name "JAIRO_POSGRADO"
 + C:\Users\Usuario>git config --global user.email "jairoleal9915@gmail.com"
+
+
+**Semana 2** (14/08/2025)
+
