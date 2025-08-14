@@ -19,4 +19,3 @@ temp$media_anual <- rowMeans(temp[,2:13])
 #seleccionar temp[,2:13] y en consola aparece las columnas seleccionadas
 
 head(temp)
-
