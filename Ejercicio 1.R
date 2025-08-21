@@ -16,11 +16,13 @@ names(temp) #nombre de las columnas
 str(temp) #ver estructura del dataframe 21 obs. of  13 variables
 
 summary(temp) #resumen estadistico
-names(temp) <- c("Anual", "Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic")
+names(temp) <- c("Anual", "Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", 
+                 "Ago", "Sep", "Oct", "Nov", "Dic")
 
 temp$media_anual <- rowMeans(temp[,2:13]) 
-#la coma para columnas es antes de los numeros, la coma despues de los numeros son para seleccionar filas
-#seleccionar temp[,2:13] y en consola aparece las columnas seleccionadas
+# la coma para columnas es antes de los numeros, la coma despues de los numeros
+# son para seleccionar filas
+# seleccionar temp[,2:13] y en consola aparece las columnas seleccionadas
 
 head(temp)
 
