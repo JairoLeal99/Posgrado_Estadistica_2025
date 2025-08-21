@@ -1,3 +1,7 @@
+# JAIRO ALBERTO LEAL GOMEZ
+# 21/08/2025
+# SEMANA 2
+
 # EJERCICIO 1
 
 temperatura <- read.csv("C:/JAIRO LEAL/Posgrado_Estadistica_2025/temperatura.csv")
@@ -19,3 +23,25 @@ temp$media_anual <- rowMeans(temp[,2:13])
 #seleccionar temp[,2:13] y en consola aparece las columnas seleccionadas
 
 head(temp)
+
+# SEMANA 3
+
+# Graficar con Boxplot
+
+boxplot(temp) # no funciona asi
+
+temp1 <- temp[ ,2:13] # dejamos solo las columnas de los meses desde ene-dic
+
+colores <- c("paleturquoise3", "paleturquoise3", "paleturquoise3",
+             "seagreen3", "seagreen3","seagreen3",
+             "sienna2", "sienna2", "sienna2",
+             "violetred2", "violetred2", "violetred2")
+
+boxplot(temp1,
+        main= "Comportamiento Temperatura (2000-2020)",
+        xlab ="Mes",
+        ylab ="Temperatura (°C)",
+        col= colores,
+        border = "black")
+
+
