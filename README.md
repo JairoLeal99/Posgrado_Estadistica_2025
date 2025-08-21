@@ -20,6 +20,11 @@ Material curso de posgrado; Materia Estadística en la Investigación Científic
 + Laboratorio 1
 + Conocer la inferaz de RStudio
 
+**Semana 3** (21/08/2025)
+
++Seguimos con laboratorio 1 y analizamos base de datos de temperatura 
++Importamos datos desde un URL
+
 
 
 
