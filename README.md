@@ -25,6 +25,11 @@ Material curso de posgrado; Materia Estadística en la Investigación Científic
 + Seguimos con laboratorio 1 y analizamos base de datos de temperatura 
 + Importamos datos desde un URL
 
+**Semana 4** (28/08/2025)
 
++ Pruebas estadisticas
 
+**Semana 5** (04/09/2025)
+
++ Pruebas estadisticas
 
