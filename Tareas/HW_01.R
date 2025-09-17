@@ -1,4 +1,4 @@
-# Laboratorio 1: Empezar con R y RStudio
+# Laboratorio 1: Empezar con R y RStudio 
 # Trabajar con datos en R
 # Jairo Alberto Leal Gómez
 # Matricula 1723093
