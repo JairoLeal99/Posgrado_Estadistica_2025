@@ -98,7 +98,8 @@ barplot(gastosordenados2,
 
 help(barplot)
 
-names(gastosordenados2) <- c("Otro", "Comestibles", "Transporte", "Gimnasio", "Celular", "Transporte")
+names(gastosordenados2) <- c("Otro", "Comestibles", "Transporte", "Gimnasio", 
+                             "Celular", "Transporte")
 
 barplot(gastosordenados2, 
         main="Gastos mensuales",
