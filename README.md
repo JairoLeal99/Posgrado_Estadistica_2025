@@ -22,14 +22,15 @@ Material curso de posgrado; Materia Estadística en la Investigación Científic
 
 **Semana 3** (21/08/2025)
 
-+ Seguimos con laboratorio 1 y analizamos base de datos de temperatura 
++ Seguimos con laboratorio 1
++ Script 1 = analizamos base de datos de temperatura 
 + Importamos datos desde un URL
 
 **Semana 4** (28/08/2025)
 
-+ Pruebas estadisticas
++ Script 2 = Pruebas estadisticas (prueba de normalidad, homogeneidad varianzas, prueba de t, datos calidad plantula)
 
 **Semana 5** (04/09/2025)
 
-+ Pruebas estadisticas
++ Script 3 = Pruebas estadisticas
 
