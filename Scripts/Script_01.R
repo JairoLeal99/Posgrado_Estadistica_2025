@@ -2,9 +2,9 @@
 # 21/08/2025
 # SEMANA 2
 
-# EJERCICIO 1
+# SCRIPT 1
 
-temperatura <- read.csv("C:/JAIRO LEAL/Posgrado_Estadistica_2025/temperatura.csv")
+temperatura <- read.csv("temperatura.csv")
 temperatura
 
 temp <- temperatura
@@ -73,3 +73,4 @@ senasica <- read.csv(url, header = T)
 # Header = True para que la primera fila la tome como las variables
 
 head(senasica[1:6,2:12])
+
