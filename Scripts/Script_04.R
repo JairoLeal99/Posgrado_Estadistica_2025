@@ -101,7 +101,7 @@ plot(TukeyHSD(datos.aov))
 
 library(ggplot2)
 
-ggplot(datos, aes(x=fertilizer, y = yield, fill= fertilizer))+ 
+ggplot(datos, aes(x = fertilizer, y = yield, fill= fertilizer))+ 
   geom_violin()+
   geom_jitter()+
   theme_light()
