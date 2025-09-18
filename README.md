@@ -39,3 +39,5 @@ Material curso de posgrado; Materia Estadística en la Investigación Científic
 + No hubo clase
 
 **Semana 7** (18/09/2025)
+
++ Script 4 = Pruebas estadisticas (ANOVA, LSD, TUKEY)

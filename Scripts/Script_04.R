@@ -58,9 +58,42 @@ bartlett.test(datos$yield ~ datos$fertilizer)
 
 # No hay diferencias entre las varianzas
 
+datos.aov <- aov(datos$yield ~ datos$fertilizer)
+summary(datos.aov)
+
+# + para comparar dos variables
+# * interacción
 
 
+# LSD DETERMINAR EL VALOR Diferencia Mínima Significativa
 
+qt(0.975, 93)
 
+sqrt((2*0.3859)/32) * qt(0.975, 93)
 
+tapply(datos$yield, datos$fertilizer, mean)
 
+# F1 vs F2
+
+176.9332 - 176.7570 # NO SUPERA EL VALOR DE LSD 0.3083992
+
+# EL valor entre las medias, debe ser mayor que el LSD para que sean diferentes
+
+# F2 vs F3
+
+176.9332 - 177.3562 # SUPERA EL VALOR DE LSD 0.3083992
+
+# F1 vs f3
+
+176.7570 - 177.3562  # SUPERA EL VALOR DE LSD 0.3083992
+
+# LSD ES MAS ROBUSTA PARA LA COMPARACIÓN DE LAS DIFERENCIAS
+
+sqrt((2*0.3859)/32) * qtukey(0.95, nmeans = 3, df = 93)
+
+0.3083992 # 300 kilos de dif con LSD mas sensible
+
+0.5231185 # 500 kilos de dif con Tukey menos sensible
+
+TukeyHSD(datos.aov)
+plot(TukeyHSD(datos.aov))
