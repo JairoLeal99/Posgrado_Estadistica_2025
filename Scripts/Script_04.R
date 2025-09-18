@@ -103,8 +103,11 @@ library(ggplot2)
 
 ggplot(datos, aes(x = fertilizer, y = yield, fill= fertilizer))+ 
   geom_violin()+
-  geom_jitter()+
-  theme_light()
+  geom_jitter(col = "indianred")+
+  geom_boxplot(width=0.1, col = "white", alpha=0.5)+
+  theme_light()+
+  labs(x = "Fertilizante",
+       y = "Producción")
 
 
 
