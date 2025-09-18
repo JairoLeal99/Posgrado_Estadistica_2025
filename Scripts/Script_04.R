@@ -97,3 +97,5 @@ sqrt((2*0.3859)/32) * qtukey(0.95, nmeans = 3, df = 93)
 
 TukeyHSD(datos.aov)
 plot(TukeyHSD(datos.aov))
+
+
