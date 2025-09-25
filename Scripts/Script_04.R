@@ -4,7 +4,7 @@
 
 # SCRIPT 4
 
-datos <- read.csv("Scripts/crop.csv", header =  T)
+datos <- read.csv("crop.csv", header =  T)
 datos
 
 summary(datos)
