@@ -1,5 +1,6 @@
 # Posgrado_Estadistica_2025
 Material curso de posgrado; Materia Estadística en la Investigación Científica; Doctorado DCOMRN
+Docente: Dr. Marco A. González Tagle
 
 ## CONTENIDO DEL CURSO 
 
@@ -22,7 +23,7 @@ Material curso de posgrado; Materia Estadística en la Investigación Científic
 
 **Semana 3** (21/08/2025)
 
-+ Revisamos laboratorio 1
++ Revisamos lo elaborado en laboratorio 1 con Dr. Marcos
 + Script 1 = Analizamos base de datos de temperatura, creamos boxplots e importamos datos desde un URL
 
 **Semana 4** (28/08/2025)
@@ -42,3 +43,7 @@ Material curso de posgrado; Materia Estadística en la Investigación Científic
 
 + Script 4 = Pruebas estadisticas (ANOVA, LSD, TUKEY)
 + Tarea 3
+
+**Semana 8** (25/09/2025)
+
++ Script 5 = Regresion lineal simple, datos de harina y trigo
