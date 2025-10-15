@@ -9,43 +9,43 @@ Docente: Dr. Marco A. González Tagle
 + Crear repositorio :pager:
 + Sincoronizar nube y computadora :computer:
 + Credenciales Git :key:
-+ SOLO SE REALIZO README, NO HUBO SCRIPT
++ SOLO SE REALIZO README, NO HUBO SCRIPT :diamonds:
 
-**Forma Sincoronizar nube y computadora**
+**Forma Sincoronizar nube y computadora** :computer:
 
-+ C:\Users\Usuario>git config --global user.name "JAIRO_POSGRADO"
-+ C:\Users\Usuario>git config --global user.email "jairoleal9915@gmail.com"
++ C:\Users\Usuario>git config --global user.name "JAIRO_POSGRADO" :lock_with_ink_pen:
++ C:\Users\Usuario>git config --global user.email "jairoleal9915@gmail.com" :e-mail:
 
-**Semana 2** (14/08/2025) 
+**Semana 2** (14/08/2025) :man: :v:
 
 + Clase con Dr. Marcos Gzz Casares
 + Conocer la inferaz de RStudio
 + Laboratorio 1
 
-**Semana 3** (21/08/2025)
+**Semana 3** (21/08/2025) :man: :ok_hand:
 
 + Revisamos lo elaborado en laboratorio 1 con Dr. Marcos
 + Script 1 = Analizamos base de datos de temperatura, creamos boxplots e importamos datos desde un URL
 
-**Semana 4** (28/08/2025)
+**Semana 4** (28/08/2025) :closed_book:
 
 + Script 2 = Pruebas estadisticas (prueba de normalidad, homogeneidad varianzas, prueba de t, datos calidad plantula)
 
-**Semana 5** (04/09/2025)
+**Semana 5** (04/09/2025) :blue_book:
 
 + Script 3 = Pruebas estadisticas (media movil con base de iris, analisis de base de producción de semilla)
 + Tarea 1 = Gastos de estudiante (Similar a Laboratorio 1)
 + Tarea 2 = Base de datos Iris, pruebas de varianza, t de student, Cohen's, reacción de intepretacion de pruebas
 
-**Semana 6** (11/09/2025)
+**Semana 6** (11/09/2025) :watch: :no_bell: :snail:
 
-+ No hubo clase
++ No hubo clase 
 
-**Semana 7** (18/09/2025)
+**Semana 7** (18/09/2025) :ledger:
 
 + Script 4 = Pruebas estadisticas (ANOVA, LSD, TUKEY)
 + Tarea 3 = Base de datos de concentracion de estroncio (prueba de normalidad, LSD, DMS e interpretación cientifica)
 
-**Semana 8** (25/09/2025)
+**Semana 8** (25/09/2025) :notebook:
 
 + Script 5 = Regresion lineal simple, con base de datos de harina y trigo
